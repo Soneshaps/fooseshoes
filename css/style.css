@@ -118,6 +118,8 @@ body{
 
 .bottom-header-menu-item:hover{
     color: #57C5A0;
+    transition: all 0.1s ease-in-out;
+
 }
 
 
@@ -150,6 +152,12 @@ body{
     vertical-align: middle;
     font-size: 18px;
 }
+
+.wishlist-number:hover{
+    background-color: #57C5A0;
+    transition: all 0.2s ease-in;
+}
+
 .wishlist-number-right{
     background-color: #57C5A0;
 }
@@ -204,6 +212,9 @@ body{
     border: 5px solid #fafaf9;
 }
 
+.slider-icon:hover {
+    transition: all 0.3s ease-in;
+}
 
 /* Content */
 .content-one-inner{
@@ -238,6 +249,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
+
 }
 
 .content-one-detail-area:hover {
@@ -248,10 +260,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.1s ease-in;
+
 }
 
 .content-one-detail-area:hover {
     font-size: 25px;
+    transition: all 0.1s ease-in;
 }
 
 
@@ -287,6 +302,7 @@ body{
 .content-header-show:hover{
     background: #BCB4A7;
     color: #fff;
+    transition: all 0.2s ease-in;
 }
 
 .product-wrapper{
@@ -339,6 +355,7 @@ body{
 
 .product-hover{
     display: none;
+
 }
 
 .product-hover-list{
@@ -382,14 +399,19 @@ body{
 
 .product-wrapper:hover .product-name{
     display: none;
+    transition: all 0.3s ease-out;
+
 }
 
 .product-wrapper:hover .product-hover{
     display: block;
+    transition: all 0.3s ease-in;
+
 }
 
 .product-wrapper:hover .product-image{
     transform: scaleX(-1);
+    transition: all 0.1s ease-in;
 }
 
 .sale-sticker{
@@ -567,6 +589,7 @@ body{
 
 .search-icon-bottom:hover,.bottom-social-media-icon:hover{
     background-color: #5d5d5d ;
+    transition: all 0.3s ease-in-out;
 }
 
 .bottom-social-icons-wrapper{
@@ -662,12 +685,12 @@ body{
     .content-two-bottom-card:first-child{
         width: 45%;
         float: left;
-        min-height: 270px;
+        height: 270px;
     }
     .content-two-bottom-card:nth-child(2){
         width: 45%;
         float: right;
-        min-height: 270px
+        height: 270px
     }
     .content-two-bottom-card:last-child{
         width: 96%;
@@ -767,13 +790,11 @@ body{
     }
     .content-two-bottom-card:first-child{
         width: 25%;
-        min-height: 270px;
         margin-right: 10px;
     }
     .content-two-bottom-card:nth-child(2){
         width: 25%;
         float: left;
-        min-height: 270px;
 
     }
     .content-two-bottom-card:last-child{
@@ -800,6 +821,11 @@ body{
     .date-detail p{
         font-size: 14px;
     }
+    
+    .content-two-bottom-card{
+        min-height: 385px;
+    }
+
    
     
   }
