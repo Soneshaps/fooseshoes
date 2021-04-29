@@ -119,6 +119,9 @@ body{
 .bottom-header-menu-item:hover{
     color: #57C5A0;
     transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
 
 }
 
@@ -156,6 +159,9 @@ body{
 .wishlist-number:hover{
     background-color: #57C5A0;
     transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
 }
 
 .wishlist-number-right{
@@ -214,6 +220,9 @@ body{
 
 .slider-icon:hover {
     transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
 }
 
 /* Content */
@@ -261,12 +270,18 @@ body{
     justify-content: center;
     align-items: center;
     transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
 
 }
 
 .content-one-detail-area:hover {
     font-size: 25px;
     transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
 }
 
 
@@ -303,6 +318,9 @@ body{
     background: #BCB4A7;
     color: #fff;
     transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
 }
 
 .product-wrapper{
@@ -400,18 +418,27 @@ body{
 .product-wrapper:hover .product-name{
     display: none;
     transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
 
 }
 
 .product-wrapper:hover .product-hover{
     display: block;
     transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
 
 }
 
 .product-wrapper:hover .product-image{
     transform: scaleX(-1);
     transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
 }
 
 .sale-sticker{
@@ -590,6 +617,9 @@ body{
 .search-icon-bottom:hover,.bottom-social-media-icon:hover{
     background-color: #5d5d5d ;
     transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .bottom-social-icons-wrapper{
