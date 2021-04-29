@@ -1,6 +1,6 @@
 @font-face {
     font-family: Aller;
-    src: url('/fonts/Aller.ttf');
+    src: url('/fonts/Aller_Rg.ttf');
   }
 body{
     margin: 0;
@@ -46,7 +46,7 @@ body{
 .burger-menu-area{
     height: 65px;
     border-left: 1px solid rgb(60, 60, 60);
-    padding-left: 2px;
+    padding-left: 10px;
     margin-left: 8px;
 }
 
@@ -63,13 +63,31 @@ body{
 
 .search{
     vertical-align: middle;
+    margin-right: 10px;
 }
 
 .burger-menu{
     height: 24px;
     vertical-align: middle;
-    
+
 }
+
+.login-register{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    float: left;
+    color: #777777;
+    display: none;
+}
+
+.login,.register{
+    padding: 5px 8px;
+
+}
+.login,.register a{
+    color: #777777;
+ 
+} 
 
 /* Bottom Header */
 
@@ -77,6 +95,29 @@ body{
     width: 92%;
 
 }
+
+.bottom-header-menu-wrapper{
+    display: none;
+    font-size: 16px;
+}
+
+.bottom-header-menu-item-list{
+    float: left;
+    border-left: 1px solid rgb(226, 226, 226);
+}
+
+.bottom-header-menu-item{
+    display: block;
+    padding: 26px 30px;
+    color: #2d2d2d;
+
+}
+
+.bottom-header-menu-item:hover{
+    color: #57C5A0;
+}
+
+
 
 .bottom-header-wishlist-items{
     height: 60px;
@@ -103,10 +144,13 @@ body{
     width: 20px;
     color: #ffffff;
     vertical-align: middle;
+    font-size: 18px;
 }
 .wishlist-number-right{
     background-color: #57C5A0;
 }
+
+
 
 
 
@@ -120,7 +164,7 @@ body{
     width: 100%;
     height: auto;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 24px;
 }
 
 .content-one-image{
@@ -143,6 +187,8 @@ body{
     transform: translate(-50%, -50%);
     white-space: nowrap;
 }
+
+
 
 /* Content 2 */
 .content-two-inner{
@@ -188,8 +234,8 @@ body{
 }
 
 .product-image{
-    height: auto;
-    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .product-detail-area{
@@ -231,7 +277,7 @@ body{
 .product-hover-list{
     display: inline-block;
     padding-right: 12px;
-    line-height: 90px;
+    line-height: 75px;
 }
 
 .product-hover-list:last-child{
@@ -239,29 +285,29 @@ body{
 }
 
 .product-eye{
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-repeat: no-repeat;
     background-image: url('/images/icon_1.png');
 }
 
 .product-star{
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-repeat: no-repeat;
     background-image: url('/images/fav.png');
 }
 
 .product-share{
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-repeat: no-repeat;
     background-image: url('/images/icon_3.png');
 }
 
 .product-cart{
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-repeat: no-repeat;
     background-image: url('/images/cart.png');
 }
@@ -293,7 +339,6 @@ body{
 
 .content-two-bottom-header{
     margin-bottom: 18px;
-    text-align: center;
 }
 
 .content-two-bottom-detail{
@@ -310,9 +355,6 @@ body{
     margin-bottom: 10px;
 }
 
-.date-detail{
-    /* text-align: center; */
-}
 
 .date-detail span{
     margin: 10px 0;
@@ -485,3 +527,190 @@ body{
 .footer-inner{
     padding: 20px 0;
 }
+
+
+@media screen and (min-width: 768px) {
+    .content-one-image-area{
+        width: 32%;
+        margin-right: 2%;
+    }
+    .content-one-image-area:last-child{
+        margin-right: 0;
+    }
+    .content-one-detail-area{
+     font-size: 16px;   
+    }
+    .product-wrapper{
+        width: 32%;
+        margin-right: 2%;
+    }
+    .product-wrapper:last-child{
+        margin: 0;
+    }
+    .product-detail-area{
+        height: 50px;
+    }
+    .product-price{
+        height: 70px;
+        width: 70px;
+    }
+    .product-name-area {
+        width: 65%;
+        line-height: 50px;
+        font-size: 16px;
+    }
+    .product-hover{
+        height: 50px;
+    }
+    .product-hover-list{
+        display: inline-block;
+        padding-right: 7px;
+        line-height: 65px;
+    }
+    
+    .product-hover-list:last-child{
+        padding-right: 0;
+    }
+
+    .content-two-bottom-card:first-child{
+        width: 45%;
+        float: left;
+        min-height: 270px;
+    }
+    .content-two-bottom-card:nth-child(2){
+        width: 45%;
+        float: right;
+        min-height: 270px
+    }
+    .content-two-bottom-card:last-child{
+        width: 96%;
+        float: left;
+    }
+    
+    .content-three-top-card:first-child{
+        width: 28%;
+        float: left;
+        min-height: 350px;
+        margin-right: 1%;;
+    }
+    .content-three-top-card:nth-child(2){
+        width: 28%;
+        float: left;
+        min-height: 350px
+    }
+    .content-three-top-card:last-child{
+        width: 28%;
+        float: right;
+        overflow: hidden;
+
+    }
+
+    .bottom-search{
+        width: 45%;
+        float: left;
+    }
+
+    .bottom-social-icons-wrapper{
+        margin-top: 0;
+        float: right;
+    }
+
+    .bottom-social-media-icon:last-child{
+        margin-right: 0;
+    }
+    
+    .footer-menu,.footer-copyright{
+        width: max-content;
+        margin-top: 0;
+    }
+    .blog-card {
+        margin-bottom: 98px;
+        height: 20px;
+    }
+    .date-card{
+        padding: 10px;
+        width: 50px;
+        float: left;
+    }   
+    .date-detail {
+        width: 400px;
+        margin-left: 13px;
+        float: left;
+    } 
+    .date-detail span {
+        font-size: 16px;
+    }
+    .date-detail p{
+        font-size: 16px;
+    }
+    
+
+
+    
+
+}
+
+@media screen and (min-width: 992px) {
+    .bottom-header{
+        position: relative;
+    }
+    .bottom-header-wishlist{
+        width: 200px;
+        float: right;
+    }
+    .bottom-header-menu-wrapper{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .burger-menu-area{
+        line-height: 65px;
+    }
+    .login-register{
+        display: block;
+    }
+    .content-three-bottom-wrapper {
+        padding: 40px 0;
+    }
+    .footer{
+        height: max-content;
+    }
+    .content-two-bottom-card:first-child{
+        width: 25%;
+        min-height: 270px;
+        margin-right: 10px;
+    }
+    .content-two-bottom-card:nth-child(2){
+        width: 25%;
+        float: left;
+        min-height: 270px;
+
+    }
+    .content-two-bottom-card:last-child{
+        width: 38%;
+        float: right;
+    }
+    .blog-card {
+        margin-bottom: 98px;
+        height: 20px;
+    }
+    .date-card{
+        padding: 10px;
+        width: 50px;
+        float: left;
+    }   
+    .date-detail {
+        width: 251px;
+        margin-left: 13px;
+        float: left;
+    } 
+    .date-detail span {
+        font-size: 14px;
+    }
+    .date-detail p{
+        font-size: 14px;
+    }
+   
+    
+  }
