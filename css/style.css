@@ -236,6 +236,7 @@ body{
 /* Slider Remote */
 
 .slider-remote{
+    display: none;
     width: 100%;
     height: 85px;
     background-color: #2e2e2e;
@@ -305,7 +306,7 @@ body{
     
 
 .slider-bottom-name{
-    font-size: 18px;
+    font-size: 16px;
     display: block;
 }
 
@@ -675,7 +676,7 @@ body{
 
 .content-three-bottom-wrapper{
     border-top:1px solid #141414;
-    padding: 10px 0;
+    padding: 25px 0;
 }
 
 .bottom-search{
@@ -777,9 +778,13 @@ body{
     .content-header-extra{
         display: inline-block;
     }
-
+    
     .slider-product-price{
         margin-top: 45px;
+    }
+    .slider-remote{
+        display: block;
+
     }
     .content-one-image-area{
         width: 32%;
@@ -910,6 +915,9 @@ body{
     }
     .slider-img{
         object-fit: cover;
+    }
+    .slider-bottom-name{
+        font-size: 18px;
     }
     .bottom-header{
         position: relative;
