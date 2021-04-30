@@ -844,20 +844,15 @@ body{
     }
     
     .content-three-top-card:first-child{
-        width: 28%;
-        float: left;
-        min-height: 350px;
-        margin-right: 1%;;
+        width: 100%;
     }
     .content-three-top-card:nth-child(2){
-        width: 28%;
+        width: 40%;
         float: left;
-        min-height: 350px
     }
     .content-three-top-card:last-child{
-        width: 28%;
+        width: 40%;
         float: right;
-        overflow: hidden;
 
     }
 
@@ -984,7 +979,23 @@ body{
         min-height: 320px;
     }
     
+    .content-three-top-card:first-child{
+        width: 28%;
+        float: left;
+        min-height: 350px;
+        margin-right: 1%;;
+    }
+    .content-three-top-card:nth-child(2){
+        width: 28%;
+        float: left;
+        min-height: 350px
+    }
+    .content-three-top-card:last-child{
+        width: 28%;
+        float: right;
+        overflow: hidden;
 
+    }
    
     
   }
