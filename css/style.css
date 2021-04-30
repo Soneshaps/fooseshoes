@@ -91,6 +91,9 @@ body{
 .login:hover,.register:hover{
     font-weight: 600;
     transition: all 0.1s ease-in;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
 }
 .login,.register a{
     color: #777777;
@@ -265,6 +268,9 @@ body{
 .slider-remote-top-list:hover{
     background-color: #57C5A0;
     transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
 }
 
 .slider-remote-top-list:first-child{
@@ -292,6 +298,9 @@ body{
 .slider-remote-bottom-list:hover{
     color: #b6b6b6;
     transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
 }
     
 
